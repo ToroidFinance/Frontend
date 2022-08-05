@@ -1,0 +1,25 @@
+
+
+@font-face {
+  font-family: 'Geomanist';
+  src: local('Geomanist'), url(./fonts/geomanist-book-webfont.ttf) format('truetype');
+}
+
+.number {
+  font-family: Arial;
+}
+
+body {
+  background-color: #f0f4f8;
+  color: #00010f;
+  margin: 0;
+  font-size: 16px;
+  font-family: Geomanist;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

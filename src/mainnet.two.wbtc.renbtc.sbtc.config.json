@@ -1,0 +1,47 @@
+{
+  "defaultWeb3Provider": "purple-ancient-snowflake.avalanche-mainnet.quiknode.pro/08d868dc5437e8616dcf1b35f067b796dabf1b03/",
+  "infuraKey": "08d868dc5437e8616dcf1b35f067b796dabf1b03",
+  "": 43114,
+  "displayDecimals": 4,
+  "swapDecimals": 8,
+  "assets": [
+    { 
+      "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599", 
+      "decimals": 8,
+      "icon": "wbtc.svg",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "type": "ERC20",
+      "weight": ".5",
+      "derivatives": [ ]
+    },
+    { 
+      "address": "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D", 
+      "decimals": 8,
+      "icon": "renbtc.svg",
+      "name": "renBTC",
+      "symbol": "renBTC",
+      "type": "ERC20",
+      "weight": ".4",
+      "derivatives": [ ]
+    },
+    { 
+      "address": "0xfE18be6b3Bd88A2D2A7f928d00292E7a9963CfC6", 
+      "decimals": 18,
+      "icon": "sbtc.svg",
+      "name": "Synth sBTC",
+      "symbol": "sBTC",
+      "type": "ERC20",
+      "weight": ".1",
+      "derivatives": [ ]
+    }
+  ],
+  "shell": "0x02Af7C867d6Ddd2c87dEcec2E4AFF809ee118FBb",
+  "params": {
+    "alpha": ".9",
+    "beta": ".6",
+    "delta": ".1",
+    "epsilon": ".00035",
+    "lambda": "1"
+  }
+}
